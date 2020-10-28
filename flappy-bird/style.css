@@ -1,0 +1,58 @@
+body {
+    display: flex;
+}
+
+.game-container {
+    width: 500px;
+    height: 730px;
+    position: absolute;
+    overflow: hidden;
+}
+
+.border-left {
+    width: 80px;
+    height: 790px;
+    position: absolute;
+    background-color: white;
+    z-index: 1;
+}
+
+.sky {
+    width: 500px;
+    height: 450px;
+    position: absolute;
+    background-image: url("img/bg.jpg");
+}
+
+.ground {
+    bottom: 0;
+    width: 500px;
+    height: 280px;
+    position: absolute;
+    background-image: url("img/ground.jpg");
+}
+
+.bird {
+    z-index: 2;
+    background-image: url("img/img2.png");
+    background-size: 100%;
+    background-repeat: no-repeat;
+    width: 70px;
+    height: 70px;
+    position: absolute;
+}
+
+.obstacle {
+    background-image: url("img/pipe.png");
+    width: 60px;
+    height: 300px;
+    position: absolute;
+}
+
+.topObstacle {
+    transform: rotate(180deg);
+    background-image: url("img/pipe.png");
+    width: 60px;
+    height: 300px;
+    position: absolute;
+}

@@ -1,0 +1,26 @@
+.container {
+    width: 300px;
+    height: 300px;
+}
+
+table {
+    border-collapse: collapse;
+    padding-bottom: 10px;
+}
+
+table thead tr td {
+    font-weight: bold;
+}
+
+tbody td {
+    font-weight: bold;
+    padding-top: 20px;
+    border: 1px solid black;
+    width: 40px;
+    height: 20px;
+    background: rgba(0, 0, 0, 0.2)
+}
+
+.opend {
+    background: white;
+}
